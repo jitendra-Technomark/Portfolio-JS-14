@@ -4,8 +4,8 @@ import ArrowIcon from '@/components/Icons/ArrowIcon'
 
 export default function AboutMe(props: any) {
   const technologies = [
-    ['Next.js', 'React.js', 'Node.js', 'MongoDB', 'MySQL'],
-    ['TypeScript', 'JavaScript (ES6+)', 'Tailwind CSS', 'HTML', 'CSS'],
+    ['Next.js', 'React.js', 'Node.js', 'MongoDB', 'MySQL', 'Go'],
+    ['TypeScript', 'JavaScript (ES6+)', 'Tailwind CSS', 'HTML', 'CSS', 'Python'],
   ]
 
   return (
@@ -36,12 +36,13 @@ export default function AboutMe(props: any) {
               </span>
             </div>
             <div className='font-Header '>
-              <span className='text-gray-400 '>
+              <span className='text-gray-400'>
                 Since pursuing my MCA degree, my career has taken me through diverse industries, allowing me to refine my
                 expertise in desktop and web development. My primary focus lies in the{' '}
                 <span className='text-AAsecondary'>MERN stack</span>, which includes{' '}
                 <span className='text-AAsecondary'>Next.js</span>, <span className='text-AAsecondary'>React.js</span>,{' '}
-                <span className='text-AAsecondary'>Node.js</span>, and more. I excel in problem-solving and take pride in crafting
+                <span className='text-AAsecondary'>Node.js</span>, and more, including{' '}
+                <span className='text-AAsecondary'>Go</span> now. I excel in problem-solving and take pride in crafting
                 outstanding web experiences.
                 <br />
                 With a keen eye for design, I add an artistic flair to my projects, creating visually appealing experiences that

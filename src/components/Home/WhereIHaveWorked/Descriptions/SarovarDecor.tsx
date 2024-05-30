@@ -2,19 +2,19 @@ import React from 'react'
 import ArrowIcon from '@/components/Icons/ArrowIcon'
 import { getTasksTextWithHighlightedKeyword } from './taskAndType'
 
-export default function JeonDecoworld() {
+export default function SarovarDecor() {
   const tasks = [
     {
-      text: 'As a part of my work with Jeon Decoworld Private Limited, I had the opportunity to develop their website from concept to completion.',
-      keywords: ['Jeon Decoworld Private Limited', 'website'],
+      text: 'Within my role at Sarovar Decor, I led the creation of their website, orchestrating its development from initial concept to final execution.',
+      keywords: ['Sarovar Decor', 'website', 'development'],
     },
     {
-      text: 'The website showcases their products, services, and company information, providing visitors with a comprehensive overview of what they offer.',
-      keywords: ['comprehensive overview'],
+      text: "The website serves as a captivating showcase for Sarovar Decor's extensive portfolio of products, services, and company ethos.",
+      keywords: ['products', 'services', 'company ethos'],
     },
     {
-      text: 'It was a collaborative effort aimed at enhancing the online presence and branding of Jeon Decoworld.',
-      keywords: ['online presence', 'branding'],
+      text: "This collaborative endeavor was aimed at fortifying Sarovar Decor's online presence and brand resonance.",
+      keywords: ['online presence', 'brand resonance'],
     },
   ]
 
@@ -25,14 +25,14 @@ export default function JeonDecoworld() {
           {/* Title */}
           <span className='font-Arimo text-sm tracking-wide text-AAsecondary sm:text-lg'>Freelance Web Developer</span>
           {/* Date */}
-          <span className='font-mono text-xs text-gray-500'>May 2022 - June 2022</span>
+          <span className='font-mono text-xs text-gray-500'>sept 2022 - Oct 2022</span>
           <span
             className='font-mono text-xs text-AAsecondary hover:cursor-pointer'
             style={{ fontSize: '0.6rem' }}
             // set on click to open the website
-            onClick={() => window.open('https://jeondecoworld.in/', '_blank')}
+            onClick={() => window.open('https://sarovardecor.in/', '_blank')}
           >
-            www.jeondecoworld.in
+            www.sarovardecor.in
           </span>
         </div>
         <div className='flex flex-col space-y-4 text-xs sm:text-sm'>

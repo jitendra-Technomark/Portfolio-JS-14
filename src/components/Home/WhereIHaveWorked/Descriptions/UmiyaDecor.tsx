@@ -2,19 +2,19 @@ import React from 'react'
 import ArrowIcon from '@/components/Icons/ArrowIcon'
 import { getTasksTextWithHighlightedKeyword } from './taskAndType'
 
-export default function JeonDecoworld() {
+export default function UmiyaDecor() {
   const tasks = [
     {
-      text: 'As a part of my work with Jeon Decoworld Private Limited, I had the opportunity to develop their website from concept to completion.',
-      keywords: ['Jeon Decoworld Private Limited', 'website'],
+      text: 'During my collaboration with Umiya Decor, I spearheaded the development of their website from inception to launch.',
+      keywords: ['Umiya Decor', 'website', 'development', 'inception', 'launch'],
     },
     {
-      text: 'The website showcases their products, services, and company information, providing visitors with a comprehensive overview of what they offer.',
-      keywords: ['comprehensive overview'],
+      text: "The website serves as a dynamic platform to spotlight Umiya Decor's diverse range of products, services, and corporate ethos.",
+      keywords: ['products', 'services', 'corporate ethos', 'dynamic platform'],
     },
     {
-      text: 'It was a collaborative effort aimed at enhancing the online presence and branding of Jeon Decoworld.',
-      keywords: ['online presence', 'branding'],
+      text: "This project was a synergistic endeavor focused on bolstering Umiya Decor's digital footprint and brand identity.",
+      keywords: ['synergistic endeavor', 'digital footprint', 'brand identity'],
     },
   ]
 
@@ -25,14 +25,14 @@ export default function JeonDecoworld() {
           {/* Title */}
           <span className='font-Arimo text-sm tracking-wide text-AAsecondary sm:text-lg'>Freelance Web Developer</span>
           {/* Date */}
-          <span className='font-mono text-xs text-gray-500'>May 2022 - June 2022</span>
+          <span className='font-mono text-xs text-gray-500'>Nov 2022 - Dec 2022</span>
           <span
             className='font-mono text-xs text-AAsecondary hover:cursor-pointer'
             style={{ fontSize: '0.6rem' }}
             // set on click to open the website
-            onClick={() => window.open('https://jeondecoworld.in/', '_blank')}
+            onClick={() => window.open('https://umiyadecor.in/', '_blank')}
           >
-            www.jeondecoworld.in
+            www.umiyadecor.in
           </span>
         </div>
         <div className='flex flex-col space-y-4 text-xs sm:text-sm'>
