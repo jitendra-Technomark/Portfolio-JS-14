@@ -4,6 +4,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 
+@font-face {
+  font-family: 'Amsterdam';
+  src: url('/font/Amsterdam.ttf');
+  src:
+    url('/font/Amsterdam.ttf') format('embedded-opentype'),
+    url('/font/Amsterdam.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Amsterdam_Four';
+  src: url('/font/Amsterdam_Four.ttf');
+  src:
+    url('/font/Amsterdam_Four.ttf') format('embedded-opentype'),
+    url('/font/Amsterdam_Four.ttf') format('truetype');
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

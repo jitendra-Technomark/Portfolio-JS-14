@@ -7,6 +7,10 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      amsterdam: ['Amsterdam'],
+      amsterdamFour: ['Amsterdam_Four'],
+    },
     rotate: {
       '-180': '-180deg',
       '-90': '-90deg',

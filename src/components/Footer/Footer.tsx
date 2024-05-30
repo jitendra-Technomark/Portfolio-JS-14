@@ -34,7 +34,9 @@ export default function Fotter(props: { githubUrl: string; hideSocialsInDesktop:
           className='group flex flex-col items-center justify-center space-y-2  font-mono 
     text-sm  text-gray-400  '
         >
-          <span className='text-xs group-hover:text-AAsecondary sm:text-sm'>Built by Jitendra Suthar</span>
+          <span className='text-xs group-hover:text-AAsecondary sm:text-sm'>
+            Built by <span className='font-amsterdamFour text-2xl'>Jitendra s.</span>
+          </span>
 
           {/* <span className="text-xs flex flex-row items-center space-x-2 group-hover:text-AAsecondary">
             <GithubIcon className={"w-4 h-4 text-gray-400 fill-current group-hover:text-AAsecondary"} />
